@@ -1,0 +1,37 @@
+
+RewriteEngine on
+
+
+#RewriteCond %{HTTP_HOST} ^dominio\.com$
+#RewriteRule ^(.*)$ http://www.dominio.com/$1 [R=301,L]
+
+RewriteRule ^([a-zA-Z0-9-._]+)/$ index.php?mod=$1
+
+#RewriteRule ^([a-zA-Z0-9-._]+)/([a-zA-Z0-9-._]+)$ index.php?mod=$1&id=$2
+
+
+Options +Includes
+AddType text/css .scss
+AddOutputFilter INCLUDES .scss
+
+
+#AddOutputFilterByType DEFLATE text/plain
+#AddOutputFilterByType DEFLATE text/html
+#AddOutputFilterByType DEFLATE text/xml
+#AddOutputFilterByType DEFLATE text/css
+#AddOutputFilterByType DEFLATE application/xml
+#AddOutputFilterByType DEFLATE application/xhtml+xml
+#AddOutputFilterByType DEFLATE application/rss+xml
+#AddOutputFilterByType DEFLATE application/javascript
+#AddOutputFilterByType DEFLATE application/x-javascript
+
+#<IfModule mod_expires.c>
+#ExpiresActive On
+#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+#ExpiresDefault "access plus 1 year"
+#</FilesMatch>
+#</IfModule>
+
+#<ifModule mod_headers.c>
+#    Header set Connection keep-alive
+#</ifModule>

@@ -1,0 +1,18 @@
+/* ============== MENSAJES ============== */
+.warning { background-color: #FFFFCC; border: 1px solid #DEBC9D; margin-bottom: 20px; padding: 10px 11px; color: #666; font-size: 14px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); display: none; }
+.confirm { background-color: #EFF7E8; border: 1px solid #BCCE9D; margin-bottom: 20px; padding: 10px 11px; color: #666; font-size: 14px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); display: none; }
+/* ============== !MENSAJES ============== */
+
+.form_text{ width: 500px !important; color: #000 !important; }
+.form_direccion{ width: 380px !important; color: #000 !important; float: left; }
+
+.form_textarea{ width: 500px; max-width: 500px; min-width: 500px; height: 200px; max-height: 300px; min-height: 200px; }
+
+.form_range{ width: 380px; padding: 0; float: left; margin: 8px 0 0 0; }
+.form_text_range{ width: 60px !important; text-align: center; color: #000 !important; }
+
+.table-default tr td{ padding: 10px; }
+	.table-default tr td.valignTop{ vertical-align: top; }
+/*.table-default tr:hover{ background: #CCC; }*/
+	.table-tit{ text-align: right;  }
+	.table-w500{ width: 500px; }

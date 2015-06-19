@@ -1,0 +1,48 @@
+// Pagination
+// -------------------------
+
+.pagination ul {
+	background: #fff;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	.rounded(6px,6px,6px,6px);
+}
+.pagination ul > li > a:hover {
+	border-color: @primaryColor;
+	background: @primaryColor;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+} 
+.pagination ul > li > .active > a, 
+.pagination ul > li > .active > span {
+	border-color: @primaryColor;
+	background: @primaryColor;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	.bevelEmboss();
+}
+.pagination ul > li > a, 
+.pagination ul > li > span {
+	border-color: #dddddd;
+}
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > span {
+	border-color: #dddddd;
+	background: #fafafa;
+	color: #dddddd;
+}
+.pagination ul > .disabled > a:hover {
+	border-color: #dddddd;
+	background: #fafafa;
+	color: #dddddd;
+	text-shadow: none;
+	.bevelEmboss(0,0);
+} 
+
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+background-color: @primaryColor;
+border: 1px solid darken(@primaryColor, 10%);
+text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}

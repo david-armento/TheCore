@@ -1,0 +1,31 @@
+//
+// Documentation
+// --------------------------------------------------
+
+.documentation {
+	.widget > .widget-body.list.list-2 ul li a:before { height: 24px; width: 24px; };
+	ul {
+		ul { margin-bottom: 10px; }
+	}
+	.col-md-3 .menu.affix { position: fixed; top: 20px; width: 220px; }
+	
+	.show-grid {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		[class*="col-md-"] {
+			background-color: lighten(#232628, 20%);
+			text-align: center;
+			.rounded(3px,3px,3px,3px);
+			min-height: 40px;
+			line-height: 40px;
+			color: #fff;
+		}
+		.show-grid {
+			margin-top: 0;
+			margin-bottom: 0;
+			[class*="col-md-"] {
+				background-color: lighten(#232628, 40%);
+			}
+		}	
+	}
+}

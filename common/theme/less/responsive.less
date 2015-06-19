@@ -1,0 +1,261 @@
+//
+// Responsive
+// --------------------------------------------------
+
+@media (min-width: 980px)
+{
+
+}
+@media (max-width: 767px)
+{
+	body { padding: 0; }
+	.fixed { margin: 0; border: none; }
+	.nav-tabs > li > a { font-size: 10pt; }
+	.nav-tabs > li > a, .nav-pills > li > a { padding-left: 5px; padding-right: 5px; }
+	
+	.documentation .span3 .menu.affix { position: relative; top: 0; width: auto; }
+	.phone-margin.bottom { margin: 0 0 10px; }
+	.well { padding: 5px; }
+	.widget .widget-body { padding: 10px 5px; }
+	.widget.margin-bottom-none { margin-bottom: 20px; }
+	
+	.widget.widget-tabs-2 {
+		.widget-head {
+			height: auto;
+			ul {
+				display: block;
+				height: auto;
+				li { float: none; display: block; width: 100%; }
+			}
+		}
+	}
+	.widget-stats { margin: 0 0 10px; }
+	.right-menu {
+		#menu {
+			left: 0;
+			right: auto;
+			border-left: none;
+			border-right: 1px solid #dddddd;
+			ul li {
+				&.active { 
+					&:after { 
+						display: inline-block; width: 9px; 
+						position: absolute; top: 0; bottom: 0; right: -10px;
+						content: ""; background: @primaryColor;
+					}
+				}
+			}
+			#menuInner {
+				box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1) inset;
+				-moz-box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1) inset;
+				-wekbit-box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1) inset;
+				float: left;
+				border-left: none;
+				border-right: 1px solid #d0d0d0;
+			}
+		}
+		#content {
+			margin: 0 0 0 234px;
+		}
+	}
+	.menu-hidden {
+		#content { margin: 0; }
+	}
+	.container-960 { width: auto; }
+	#landing_1 {
+		[class*="span"] { padding: 0 5px; }
+		.banner-1 {
+			height: auto;
+			.item { 
+				height: auto;
+				img {
+					min-height: 0;
+					height: auto;
+				} 
+			}
+			.carousel-caption { height: auto; }
+		}
+		.banner {
+			height: auto;
+			.banner-wrapper {
+				height: auto;
+				&.banner-1 {
+					h3,p,.btn {
+						position: relative;
+						top: auto;
+						right: auto;
+					}
+					.btn { display: block; .rounded(0,0,0,0); }
+					p { margin: 0 0 5px; text-align: center; }
+					h3 { font-size: 12pt; line-height: 46px; text-align: center; }
+				}
+			}
+		}
+	}
+	.social-large {
+		height: auto;
+		a { 
+			float: none; 
+			display: block;
+			border: none;
+			border-bottom: 1px solid #e5e5e5;
+			&:last-child { border: none; } 
+		}
+	}
+}
+@media (max-width: 480px)
+{
+	h1, h2, h3 { line-height: 30px; font-size: 18pt; }
+	.fixed { margin: 0; border: none; }
+	h3.glyphicons,
+	h2.glyphicons {
+		i:before { font-size: 24px; top: 3px; left: 5px; }
+	}
+	.heading-buttons .buttons { margin-top: -1px; }
+	.separator { margin: 10px 0; }
+	.table-condensed th, .table-condensed td { padding: 4px 5px; }
+	p.glyphicons {
+		padding: 5px 0 10px 55px;
+		i:before { color: #D67170; font-size: 35pt; top: 0; }
+		&.right { padding: 0 55px 0 0; }
+	}
+}
+@media (max-width: 320px)
+{
+	.nav-tabs > li,
+	.nav-tabs > li > a,
+	.nav-tabs > li > a:hover { 
+		display: block;
+		float: none; 
+		margin: 0 0 -1px;
+		border-color: @primaryColor;
+	}
+	.nav-tabs > li:hover {
+		border-color: @primaryColor;
+	}
+	.nav-tabs > li,
+	.nav-tabs > li > a {
+		border-color: #E0D5C6;
+		background: #F5EADB;
+		.rounded();
+	}
+	.nav-tabs > .active > a, .nav-tabs > .active > a:hover { 
+		
+	}
+}
+@media (max-width: 240px)
+{
+	
+}
+
+@media (max-width: 979px) and (min-width: 768px)
+{
+	.fixed { margin: 0; border: none; }
+	.widget-stats {
+		padding: 10px;
+		.glyphicons {
+			padding: 0 10px 0 0;
+			i:before { font-size: 20px; top: -5px; }
+		}
+	}
+}
+@media (max-width: 979px) and (min-width: 480px)
+{
+	
+}
+
+/* High-Res / Retina */
+@media only screen and (-webkit-min-device-pixel-ratio:2),
+  	only screen and (-o-min-device-pixel-ratio:3/2),
+  	only screen and (min--moz-device-pixel-ratio:1.5),
+  	only screen and (min-device-pixel-ratio:1.5) {
+  	
+}
+
+/* Responsive Tables */
+@media only screen and (max-width: 979px)
+{
+	.fixed { margin: 0; border: none; }
+	.table-responsive {
+		&.swipe-horizontal {
+			width: 100%; border-collapse: collapse; border-spacing: 0;
+			display: block; position: relative; width: 100%;
+			border-left: 1px solid #DDD;
+			th, td { 
+				display: block; margin: 0; vertical-align: top;
+				&:last-child { }
+			}
+			th { text-align: right; border-bottom: 0; border-left: 0; }
+			td { min-height: 1.25em; text-align: left; border-left: 0; border-right: 0; border-bottom: 0; border-top: 0; }
+			thead { 
+				display: block; float: left;
+				tr { display: block; } 
+			}
+			tbody {
+				display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; word-spacing: 0; letter-spacing: 0; font-size: 0;
+				tr { display: inline-block; vertical-align: top; border-left: 1px solid #d7d8da; } 
+			}
+		}
+		&.block {
+			/* Force table to not be like tables anymore */
+			table, thead, tbody, th, td, tr { 
+				display: block;
+			}
+
+			/* Hide table headers (but not display: none;, for accessibility) */
+			thead tr { 
+				position: absolute;
+				top: -9999px;
+				left: -9999px;
+			}
+
+			tr { border: 1px solid #d7d8da; }
+		 	td { 
+				/* Behave  like a "row" */
+				border: none;
+				border-bottom: 1px solid #d7d8da; 
+				position: relative;
+				padding-left: 50%; 
+				white-space: normal;
+				text-align:left;
+			}
+		 
+			td:before { 
+				/* Now like a table header */
+				position: absolute;
+				/* Top/left values mimic padding */
+				vertical-align: middle;
+				left: 6px;
+				width: 45%; 
+				padding-right: 10px; 
+				white-space: nowrap;
+				text-align:right;
+				font-weight: bold;
+			}
+		 
+			/*
+			Label the data
+			*/
+			td:before { content: attr(data-title); }
+		}
+	}
+}
+
+@media (max-width: 767px)
+{
+	.fixed { margin: 0; border: none; }
+	body.choose {
+		ul li { 
+			height: auto;
+			text-align: center;
+			line-height: normal;
+			span { width: 100%; display: block; text-align: center; padding: 0 0 5px; }
+		}
+		#choose-preview {
+			background: none;
+			width: 357px;
+			height: 222px;
+			> span { left: 0; top: 0; }
+		}
+	}
+}

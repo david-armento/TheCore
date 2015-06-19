@@ -1,0 +1,42 @@
+.lt-ie9 .widget .widget-body.list ul li {
+  border-bottom: 1px solid #efefef;
+}
+.lt-ie9 .navbar.main .btn-navbar {
+  float: left;
+}
+.lt-ie9 .navbar.main .topnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 42px;
+}
+.lt-ie9 .navbar.main .topnav .dropdown > a .caret {
+  margin-top: 0;
+  top: 8px;
+  left: 5px;
+}
+.lt-ie9 .heading-buttons h1.glyphicons,
+.lt-ie9 .heading-buttons h2.glyphicons,
+.lt-ie9 .heading-buttons h3.glyphicons,
+.lt-ie9 .heading-buttons h4.glyphicons,
+.lt-ie9 .heading-buttons h5.glyphicons,
+.lt-ie9 .heading-buttons h6.glyphicons {
+  float: left;
+}
+.lt-ie9 #menu #search .glyphicons i {
+  width: 34px;
+  height: 30px;
+  display: block;
+}
+.lt-ie9 #menu #search .glyphicons i:before {
+  display: block;
+}
+.lt-ie9 .navbar.main .topnav .dropdown > a .caret {
+  position: relative;
+  vertical-align: middle;
+  top: 0;
+}
+.lt-ie9 .navbar.main .topnav > li > a.glyphicons i:before,
+.lt-ie9 .navbar.main .topnav > li .notif li > a.glyphicons i:before {
+  vertical-align: middle;
+}

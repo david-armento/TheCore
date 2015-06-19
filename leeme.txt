@@ -1,0 +1,10 @@
+Web vacia + Panel de administración nuevo.
+
+Utilizando nuevo core.
+
+Revisar el htaccess de la raiz puesto que había conflicto al hacer include de js/funks.js en el panel.
+
+Usuario de acceso al panel
+ - trabajapm
+Password
+ - 456987

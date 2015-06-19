@@ -1,0 +1,35 @@
+html, body{margin:0; padding:0; border:0; font-family:Tahoma, Geneva, sans-serif; }
+
+/* Mensajes */
+
+.warning { background-color:#FFFFCC; border-radius:8px; border:2px solid #DEBC9D; margin-bottom:20px; padding:11px 11px 14px 11px; color:#666; font-size:16px; }
+.confirm { background-color:#EFF7E8; border-radius:8px; border:2px solid #BCCE9D; margin-bottom:20px; padding:11px 11px 14px 11px; color:#666; font-size:16px; }
+
+
+/* Comunes */
+
+.wrapper { width:960px; margin:0 auto; }
+.left { float:left; text-align:left; }
+.right { float:right; text-align:left; }
+
+
+/* Header */
+
+#header {  }
+
+
+/* Nav */
+
+#nav {  }
+
+
+/* Section */
+
+#section {  }
+
+
+/* Footer */
+
+#footer {  }
+
+

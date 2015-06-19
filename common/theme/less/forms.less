@@ -1,0 +1,137 @@
+//
+// Forms
+// --------------------------------------------------
+
+input, button, select, textarea { font-family: 'Open Sans', sans-serif; .rounded();}
+.form-control { .rounded();}
+.form-inline.small {
+	input,select { margin: 0 5px 0 0; .rounded(); padding: 1px 5px; border-color: #d8d9da; color: #a7a7a7; }
+	select { padding: 1px 0; height: 23px; &:last-child { margin-right: 0; } }
+	label { float: left; margin: 0 5px 0 0; display: block; }
+	.input-group 
+	{
+		&.block { display: block; }
+		input { margin: 0; width: 85%; }
+		.input-group-addon {
+			padding: 1px 3px;
+			margin: 0 0 0 -1px;
+			.rounded();
+			background: #fff;
+			color: #d8d9da;
+			border-color: #d8d9da;
+			&.glyphicons, &.social,
+			 { &:before { top: 4px; left: 4px; font-size: 14px; color: #d0d1d1; }}
+		}
+	}
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: #E0D5C6;
+  	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #E0D5C6;
+  	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #E0D5C6;
+  	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #E0D5C6;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { font-size: 13px; }
+.uniformjs .radio .disabled input[type="radio"], 
+.disabled input[type="checkbox"] { margin-left: 0; }
+
+.uniformjs .radio { height: auto; }
+.radio.inline + .radio.inline, .checkbox.inline + .checkbox.inline { margin-left: 3px; }
+.uniformjs label.radio { margin-bottom: 0; }
+.uniformjs label.radio.inline { margin: 0; }
+.checkbox.inline { padding-bottom: 1px; }
+.uniformjs .radio span { margin: 2px 0 0; }
+.uniformjs .checkbox span { margin: -2px 0 0; }
+label, input, button, select, textarea { font-size: 13px; }
+.input-full input { width: 83%; height: 17px; }
+.loginbox 
+{
+	form { margin: 0; }
+	.input-group-addon {
+		background: #fff;
+		&:before { color: #7f8284; }
+	}
+	.forgot { margin-bottom: 5px; text-align: right; display: block; }
+}
+legend {
+	line-height: normal;
+	height: auto;
+	font-size: 18px;
+	margin: 0 0 6px;
+	text-align: left;
+	padding: 0;
+	border: 0;
+	color: #797979;
+}
+
+input[type=text],
+input[type=password],
+select, textarea { 
+	border-color: #D8D9DA;
+	color: #A7A7A7;
+	.rounded(); 
+}
+
+.checkbox, .radio { padding-left:0; margin-top: 0;} //uniform js fix
+
+.form-actions { margin-top: 0; padding: 10px 20px; }
+
+.control-label.center { text-align: center; }
+.form-horizontal {
+	.form-actions { margin-top: 0; padding: 10px 20px; }
+	.controls { margin-left: 145px; }
+}
+.input-group .input-group-addon,
+.input-group .input-group-addon {
+	background: #fff;
+	&:before { color: #D0D1D1; }
+	icon { margin-top: 0; }
+}
+.input-group .input-group-addon.glyphicons,
+.input-group .input-group-addon.glyphicons {
+	background: #fff;
+
+	&:before { font-size: 14px; left: 7px; top: 7px; color: #D0D1D1; }
+}
+.input-group .input-group-addon.glyphicons &:before { left: 6px; }
+
+.input-group {
+		.glyphicons, .social 
+					 { 
+						position:relative; width:16px; padding:0px; 
+					 	&:before { top: -8px; left: 0px;font-size: 14px; color: #d0d1d1; }}
+			}
+
+.input-group-btn .btn &.default { .rounded(0px,3px,3px,0px);; margin-top:-1px;} 
+
+.widget > .widget-body  {
+	.input-btn-group {
+	.dropdown-toggle { padding: 6px; margin: 0;}}
+}
+
+.input-mini { width: 60px; }
+
+#validateSubmitForm {
+	.control-label { width: 110px; }
+}
+
+
+
+
+
+
