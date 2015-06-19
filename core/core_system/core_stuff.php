@@ -29,6 +29,10 @@ function extension_($file) {
 	return strtolower($ext);	
 }
 
+function cambiarHoraReloj(){
+	$asd = date("Y");
+}
+
 /* URLs amigables */
 
 function amigable($var) {  	  
