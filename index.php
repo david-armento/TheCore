@@ -11,4 +11,5 @@ include(_PATH_.'layout/default.php');
 
 //Cerramos base de datos
 close_bd();
+
 ?>
