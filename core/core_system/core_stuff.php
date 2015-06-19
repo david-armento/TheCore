@@ -29,6 +29,10 @@ function extension_($file) {
 	return strtolower($ext);	
 }
 
+function comemelaaaaaaaaaa(){
+	echo "comemelaaaaaaaaaa";
+}
+
 /* URLs amigables */
 
 function amigable($var) {  	  
